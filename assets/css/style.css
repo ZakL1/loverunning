@@ -87,17 +87,18 @@ nav {
 .nav-toggle-label {
     font-size: 2rem;
 }
-/* Main content*/
+/* Main content */
 main {
-    /* Make main element take up any surplus space to push footer down */
+    /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
     margin-top: 47px;
-    margin-top: 47px;
+    /* Enable flex properties for child elements */
     display: flex;
     flex-direction: column;
 }
 
-/* Sign up */
+/* Form */
 #signup {
     background-image: url("../images/signup-image.webp");
     background-size: cover;
@@ -105,7 +106,6 @@ main {
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
-
 
 #signup-form {
     color: #ffffff;
@@ -130,18 +130,18 @@ main {
 }
 
 .radio-buttons {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    width: 100%;
 }
 
 .join-button {
+    margin-top: 20px;
     border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
     background-color: #454b1b;
     color: #fafafa;
-    font-size: 100%;
-    margin-top: 20px;
-    padding: 15px 32px;
 }
 
 #hero {
